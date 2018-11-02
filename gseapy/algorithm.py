@@ -10,7 +10,7 @@ from multiprocessing import Pool
 from math import ceil
 from collections import defaultdict
 from numpy.random import choice, normal
-from beta_binomial import *
+from gseapy.beta_binomial import *
 
 def enrichment_score(gene_list, correl_vector, gene_set, weighted_score_type=1, 
 					 nperm=1000, rs=np.random.RandomState(), single=False, scale=False):
